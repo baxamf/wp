@@ -1,0 +1,141 @@
+/*
+Theme Name: baxatheme
+Theme URI: baxamf.com
+Author: baxamf
+Author URI: makintow@gmail.com
+Description: This my first theme on Wordpress
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: first theme ever
+
+*/
+body {
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	color: #333;
+}
+
+
+.clearfix:before,
+.clearfix:after {
+	content: "";
+	display: table;
+}
+.clearfix:after {
+	clear: both;
+}
+
+.clearfix {
+	zoom: 1;
+}
+
+
+a:link,
+a:visited {
+	color: #006ec3;
+}
+
+p {
+	line-height: 1.65em;
+}
+
+.container {
+	max-width: 80vw;
+	margin: 0 auto;
+}
+
+
+/* Header */
+.site-header {
+	border-bottom: 2px solid #999;
+}
+
+/* Footer */
+.site-footer {
+	border-top: 2px solid #999;
+	margin-top: 30px;
+}
+
+article.post {
+	border-bottom: 2px dotted #999;
+}
+
+article.post:last-of-type {
+	border: none;
+}
+
+/* Navigation menu */
+
+.site-nav ul li {
+	display: inline-block;
+}
+
+.site-nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+/* Site header menu */
+.site-header nav ul li a {
+	display: block;
+	padding: 10px 18px;
+	border: 1px solid #bbb;
+	border-bottom: none;
+	text-decoration: none;
+}
+
+.site-header nav ul li.current-menu-item a {
+	background-color: #006ec3;
+	color: #fff;
+}
+
+nav ul li a:hover {
+	background-color: #006ec3;
+	color: #fff;
+	transition: all .25s ease;
+}
+
+/* Footer menu */
+.site-footer nav ul li {
+	margin-right: 10px;
+	padding-right: 10px;
+	border-right: 1px dotted #bbb;
+}
+
+/* Page layout*/
+
+article.page p {
+	font-style: italic;
+}
+
+/* Portfolio 2 column layout*/
+.title-column {
+	float: left;
+	width: 30%;
+}
+
+.text-column {
+	float: right;
+	width: 70%;
+}
+
+/* Info-box style */
+.info-box {
+	width: 30%;
+	float: right;
+	margin: 0 0 30px 30px;
+	padding: 20px;
+	background-color: #ccc;
+}
+
+.info-box h4 {
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-bottom: 30px;
+}
+
+.info-box p {
+	font-size: 85%;
+	font-style: normal;
+}
