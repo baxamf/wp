@@ -139,3 +139,54 @@ article.page p {
 	font-size: 85%;
 	font-style: normal;
 }
+
+/* Children Links */
+
+.children-links {
+	margin-top: 20px;
+	font-size: 80%;
+}
+
+.children-links a {
+	text-decoration: none;
+	padding: 10px;
+}
+
+.children-links li {
+	margin-right: 20px;
+}
+
+.children-links .parent-link {
+	float: left;
+	margin-right: 20px;
+	padding-right: 20px;
+	border-right: 1px solid #ddd;
+	font-size: 120%;
+	font-weight: bold;
+}
+
+.children-links .parent-link a {
+	color: #333;
+}
+
+.children-links li.current_page_item a  {
+	border-bottom: 1px solid #333;
+	cursor: default;
+	transition: all .25s ease;
+	color: #333;
+}
+
+/* Post styles */
+
+.post h2 {
+	margin-bottom: 0;
+}
+
+p.post-info {
+	font-size: 80%;
+	color: #999;
+}
+
+p.post-info a {
+	color: #999
+}
