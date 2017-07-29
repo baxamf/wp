@@ -8,9 +8,13 @@
 </head>
 	<body <?php body_class(); ?>>
 
-	<div class="container">
+	<div class="container clearfix">
 
 	<header class="site-header">
+
+		<div class="hd-search">
+			<?php get_search_form(); ?>
+		</div>
 		<h1><a href="<?php echo home_url(); ?>"><?php bloginfo('name'); ?></a></h1>
 		<h3><?php bloginfo('description'); ?> <?php if (is_page('portfolio') ) { ?>
 			- This is <?php echo the_title(); ?> page
